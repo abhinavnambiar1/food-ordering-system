@@ -5,12 +5,55 @@
 }
 
 .wrapper{
-    border: 1px solid black;
     padding: 1%;
     width: 80%;
     margin: 0 auto;
 }
 
+.menu{
+    border-bottom: 1px solid grey;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
 .text-center{
     text-align: center;
+}
+
+.main-content{
+    background-color: #f1f2f6;
+}
+
+.col-4{
+    width: 20%;
+    background-color: white;
+    margin: 1%;
+    width: 2%;
+}
+
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
 }

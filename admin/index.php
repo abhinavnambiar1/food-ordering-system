@@ -8,9 +8,15 @@
 </head>
 <body>
     <!-- Menu Section Starts -->
-        <div class="menu">
+        <div class="menu text-center">
             <div class="wrapper">
-                Menu is here
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Admin</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">Food</a></li>
+                    <li><a href="#">Order</a></li>
+                </ul>
             </div>
         </div>
     <!-- Menu Section Ends -->
@@ -18,7 +24,13 @@
     <!-- Main Content Starts -->
         <div class="main-content">
             <div class="wrapper">
-                Main Section
+                <strong>DASHBOARD</strong>
+
+                <div class="col-4 text-center">
+                    <h1>5</h1>
+                    <br/>
+                    Categories
+                </div>
             </div>
         </div>
     <!-- Main Content Ends -->
@@ -26,7 +38,7 @@
     <!-- Footer Section Starts -->
         <div class="footer">
             <div class="wrapper">
-                <p class="text-center"><span id="current-year"></span> | All rights reserved | Abhinav Nambiar</p>
+                <p class="text-center"><span id="current-year"></span> | All rights reserved | <a href="#">Abhinav Nambiar</a></p>
             </div>
         </div>
     <!-- Footer Section Ends -->
