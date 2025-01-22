@@ -1,47 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Ordering System</title>
-    <link rel="stylesheet" href="../css/admin.css">
-</head>
-<body>
-    <!-- Menu Section Starts -->
-        <div class="menu text-center">
-            <div class="wrapper">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Admin</a></li>
-                    <li><a href="#">Category</a></li>
-                    <li><a href="#">Food</a></li>
-                    <li><a href="#">Order</a></li>
-                </ul>
-            </div>
-        </div>
-    <!-- Menu Section Ends -->
+<?php
 
-    <!-- Main Content Starts -->
+include("./partials/menu.php");
+
+?>
+
+<!-- Main Content Starts -->
         <div class="main-content">
             <div class="wrapper">
-                <strong>DASHBOARD</strong>
+                <h1>Dashboard</h1>
 
                 <div class="col-4 text-center">
                     <h1>5</h1>
                     <br/>
                     Categories
                 </div>
+                <div class="col-4 text-center">
+                    <h1>5</h1>
+                    <br/>
+                    Categories
+                </div>
+                <div class="col-4 text-center">
+                    <h1>5</h1>
+                    <br/>
+                    Categories
+                </div>
+                <div class="col-4 text-center">
+                    <h1>5</h1>
+                    <br/>
+                    Categories
+                </div>
+                <div class="clearfix"></div>
             </div>
         </div>
     <!-- Main Content Ends -->
 
-    <!-- Footer Section Starts -->
-        <div class="footer">
-            <div class="wrapper">
-                <p class="text-center"><span id="current-year"></span> | All rights reserved | <a href="#">Abhinav Nambiar</a></p>
-            </div>
-        </div>
-    <!-- Footer Section Ends -->
-     <script src="../js/admin.js"></script>
-</body>
-</html>
+<?php
+
+include("./partials/footer.php");
+
+?>
